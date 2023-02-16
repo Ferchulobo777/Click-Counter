@@ -1,0 +1,44 @@
+*, 
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, 
+body {
+  background-color: crimson;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.academlo-logo-contenedor{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.academlo-logo{
+  height: 120px;
+  filter: drop-shadow(1px 1px 1px #fff);
+}
+
+.contenedor-principal {
+  height: 550px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(1px 1px 1px #fff);
+}
